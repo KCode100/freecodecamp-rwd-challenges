@@ -1,0 +1,39 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	line-height: 1.7;
+	color: rgb(44, 44, 44);
+	display: flex;
+	flex-wrap: wrap;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: rgb(151, 49, 49);
+}
+nav {
+	background-color: rgb(233, 233, 233);
+	padding: 15px;
+}
+main {
+	flex: 2;
+	padding: 20px;
+}
+header {
+	font-size: 20px;
+	color: orangered;
+}
+section {
+	margin-bottom: 80px;
+	background-color: rgb(233, 233, 233);
+	padding: 30px;
+}
+@media (max-width: 600px) {
+	body {
+		flex-direction: column;
+	}
+}
